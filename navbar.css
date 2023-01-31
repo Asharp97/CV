@@ -23,7 +23,7 @@
     transition: 0.5s;
 }
 
-.navbar img:hover{
+.navbar i:hover{
     opacity: 0.5;
     scale: (1.5);
 }
@@ -42,10 +42,8 @@
     float: left;
 
 }
-.navbar img{
+.navbar i{
     cursor: pointer;
-    height: 20px;
-    translate:0px 4px;
     transition: 0.5s;
     
 }

@@ -6,17 +6,17 @@ var iconMob = document.getElementById("nightMob");
 icon.onclick = function () {
   document.body.classList.toggle("dark-theme");
   if (document.body.classList.contains("dark-theme")) {
-    icon.src = "images/Sun.png";
+    icon.className = "fa-regular fa-sun";
   } else {
-    icon.src = "images/NightMode.png";
+    icon.className = "fa-regular fa-moon";
   }
 };
 iconMob.onclick = function () {
   document.body.classList.toggle("dark-theme");
   if (document.body.classList.contains("dark-theme")) {
-    iconMob.src = "images/Sun.png";
+    iconMob.className = "fa-regular fa-sun";
   } else {
-    iconMob.src = "images/NightMode.png";
+    iconMob.className = "fa-regular fa-moon";
   }
 };
 

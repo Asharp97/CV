@@ -17,19 +17,28 @@
   --c5: #ac7088;
   --c6: black;
   --c7: #b9ab9600;
-  --c28:black;
-  --c30:#b9ab96;
+  --c28: black;
+  --c30: #b9ab96;
 }
 .dark-theme {
   --c1: #16213e;
   --c2: #1a3a6191;
   --c3: #392358;
-  --c4: #ffffff;
+  --c4: #eaeaea;
   --c5: #f36d84;
   --c6: rgb(255, 180, 180);
   --c7: rgba(255, 255, 255, 0.788);
-  --c28:WhiteSmoke;
-  --c30:#1a3a61;
+  --c28: WhiteSmoke;
+  --c30: #1a3a61;
+}
+
+.titlequalifiction {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.titlequalifiction i {
+  margin-right: 0.5rem;
 }
 
 body {
@@ -42,7 +51,9 @@ html {
 }
 
 li,
-a,h1{
+a,
+h1,
+i {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: var(--c4);
@@ -62,7 +73,6 @@ h2 {
   color: var(--c4);
   transition: 0.5s;
 }
-
 
 .mail img {
   height: 20px;
@@ -102,12 +112,10 @@ body hr {
 }
 
 @media (orientation: portrait) {
-  .main-header{
+  .main-header {
     height: 20vh;
-
   }
-  .main-header p{
+  .main-header p {
     font-size: large;
   }
-  
 }
